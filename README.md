@@ -3,7 +3,7 @@ Hier findet man einige meiner größeren Schul-Projekte, die im Informatik Leist
 
 ## Ordner-Struktur
 - Q1
-  - Ui Design
+  - User Interface Design
     - Vokabel Trainer (BlueJ)
   - Netzwerke
     - LernWiki (NetBeans)
