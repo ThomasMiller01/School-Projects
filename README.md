@@ -8,3 +8,6 @@ Hier findet man einige meiner größeren Schul-Projekte, die im Informatik Leist
   - Netzwerke
     - LernWiki (NetBeans)
     - ShopSystem (NetBeans)
+  - Verschluesselung
+    - CaesarVerschluesselung (NetBeans)
+    - ViginereVerschluesselung (NetBeans)
