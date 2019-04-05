@@ -8,7 +8,7 @@ import java.util.Scanner;
  *
  * @author thomas.miller
  */
-public class CeasarVerschluesselung {
+public class CaesarVerschluesselung {
     static char[] alphabetDict = "abcdefghijklmnopqrstuvwxyz".toCharArray();
     
     public static void main(String[] args) {
