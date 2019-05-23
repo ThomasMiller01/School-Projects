@@ -11,3 +11,6 @@ Hier findet man einige meiner größeren Schul-Projekte, die im Informatik Leist
   - Verschluesselung
     - CaesarVerschluesselung (NetBeans)
     - ViginereVerschluesselung (NetBeans)
+  - Nicht Lineare Datenstrukturen (Baumstrukturen)
+    - Binärbaum
+    - Binärer Suchbaum
