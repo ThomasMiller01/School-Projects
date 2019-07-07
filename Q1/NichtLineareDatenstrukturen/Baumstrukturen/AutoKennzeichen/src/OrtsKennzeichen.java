@@ -18,7 +18,7 @@ public class OrtsKennzeichen implements ComparableContent<OrtsKennzeichen>{
     public OrtsKennzeichen(String contraction, int number){
         this.contraction = contraction;
         this.numbers = new List<Integer>();
-        this.addNumber(number)        
+        this.addNumber(number);        
     }
     
     public OrtsKennzeichen(String contraction, int[] numbers){
@@ -42,10 +42,26 @@ public class OrtsKennzeichen implements ComparableContent<OrtsKennzeichen>{
                    inserted = true;
                    break;
                 }   
+                this.numbers.next();
             }            
             if(!inserted){
                 this.numbers.append(number);
             }
+        }
+    }
+    
+    public String getNumbersString(){
+        if(!this.numbers.isEmpty()){
+            String tmpNumbers = "";
+            this.numbers.toFirst();
+            while(this.numbers.hasAccess()){
+                tmpNumbers += ", " + this.numbers.getContent().toString();
+                this.numbers.next();
+            }            
+            return tmpNumbers.replaceFirst(", ", "");
+        }
+        else{
+            return "";
         }
     }
     
